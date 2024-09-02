@@ -1,0 +1,103 @@
+/* src/App.css */
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.container {
+  width: 100%; /* Adjust to 80-90% based on preference */
+  max-width: 1500px; /* Set a max-width for large screens */
+  margin: 0 auto;
+}/* src/App.css */
+@media (max-width: 768px) {
+  .header {
+    padding: 4vh 4vw;
+  }
+
+  .torch-icon {
+    width: 5vw;
+  }
+
+  .torch-text {
+    font-size: 2.5vw;
+  }
+
+  .main-content {
+    flex-direction: column;
+  }
+
+  .left-block, .right-block {
+    padding: 4vh 4vw;
+  }
+
+  .large-torch-icon {
+    width: 20vw;
+  }
+
+  .torch-kb-title h1 {
+    font-size: 7vw;
+  }
+
+  .torch-kb-title p {
+    font-size: 4vw;
+  }
+
+  .lower-div {
+    font-size: 4vw;
+  }
+
+  .right-block h2 {
+    font-size: 4.5vw;
+  }
+
+  .right-block p {
+    font-size: 3vw;
+  }
+
+  .signup-img {
+    width: 25vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .torch-text {
+    font-size: 4vw;
+  }
+
+  .large-torch-icon {
+    width: 30vw;
+  }
+
+  .torch-kb-title h1 {
+    font-size: 9vw;
+  }
+
+  .torch-kb-title p {
+    font-size: 5vw;
+  }
+
+  .lower-div {
+    font-size: 5vw;
+  }
+
+  .right-block h2 {
+    font-size: 6vw;
+  }
+
+  .right-block p {
+    font-size: 4vw;
+  }
+
+  .signup-img {
+    width: 35vw;
+  }
+}

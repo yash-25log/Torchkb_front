@@ -1,0 +1,22 @@
+/* src/components/Header.css */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 2vh 2vw;
+  background-color: #000000;
+}
+
+.torch-icon {
+  width: 2.5vw;
+  height: auto;
+  opacity: 1;
+}
+
+.torch-text {
+  margin-left: 1vw;
+  font-family: Lato, sans-serif;
+  font-size: 1.5vw;
+  font-weight: 900;
+  letter-spacing: 0.1vw;
+  color: #f7f7f7;
+}

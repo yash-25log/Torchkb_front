@@ -1,0 +1,92 @@
+/* src/components/MainContent.css */
+.main-content {
+  display: flex;
+  height: 80vh;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.left-block, .right-block {
+  flex: 1;
+  padding: 5vh 2vw;
+}
+
+.left-block .upper-div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+.large-torch-icon {
+  width: 12vw;
+  height: auto;
+  opacity: 1;
+}
+
+.torch-kb-title {
+  margin-left: 2vw;
+}
+
+.torch-kb-title h1 {
+  font-family: Lato, sans-serif;
+  font-size: 4.5vw;
+  font-weight: 900;
+  letter-spacing: 0.5vw;
+  color: #ffffff;
+}
+
+.torch-kb-title p {
+  font-family: Lato, sans-serif;
+  font-size: 1.8vw;
+  font-weight: 700;
+  /* letter-spacing: 0.2vw; */
+  color: #ffffff;
+}
+
+.lower-div {
+  font-family: Lato, sans-serif;
+  font-size: 2vw;
+  font-weight: 500;
+  line-height: 1.2;
+  max-width: 85%;
+  /* display: block; */
+  text-align: left;
+}
+
+.divider {
+  width: 1px;
+  background-color: #ffffff;
+  margin: 0 2vw;
+}
+
+.right-block h2 {
+  font-family: Lato, sans-serif;
+  font-size: 2.5vw;
+  font-weight: 900;
+  letter-spacing: 0.2vw;
+  color: #f7f7f7;
+}
+
+.right-block p {
+  font-family: Lato, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 900;
+  letter-spacing: 0.1vw;
+  color: #b1b1b1;
+}
+
+.signup-img {
+  margin-top: 5vh;
+  width: 12vw;
+  height: auto;
+}
+
+.sign-in, .terms {
+  color: violet;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sign-in {
+  margin-left: 0.5vw;
+}

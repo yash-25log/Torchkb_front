@@ -1,0 +1,48 @@
+.signup-container {
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 1960px;
+    height: 1135px;
+    position: relative;
+    top: -5px;
+    left: -7px;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .content {
+    display: flex;
+    height: calc(100% - 60px);
+  }
+  
+  .left-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right-section {
+    flex: 1;
+    border-left: 1px solid #FFFFFF;
+    padding: 20px;
+  }
+  
+  .signup-image {
+    max-width: 100%;
+  }
+  
+  .sign-in-link {
+    color: #007BFF;
+    cursor: pointer;
+  }
+  
